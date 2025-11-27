@@ -5,6 +5,8 @@
 
 Eigen Valley is a procedural 3D landscape generated entirely through mathematical functions and Linear Algebra concepts. It visualizes how abstract vector operations—like dot products, cross products, and gradient descent—can sculpt a living, breathing ecosystem.
 
+Live Demo: [(https://jaideepbiswas2003.github.io/The-Eigen-Valley/)]
+
 🎨 Overview
 
 This project treats the computer screen not as a canvas for pixels, but as a Vector Space ($\mathbb{R}^3$).
