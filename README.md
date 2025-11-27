@@ -87,7 +87,7 @@ Math: Custom implementation of Perlin Noise and Gradient Kernels.
 
 How to Run
 
-Local Execution:
+### Option 1: Local Execution
 
 Clone this repository.
 
@@ -102,6 +102,24 @@ Note: If textures fail to load due to CORS policies, run a local server:
 
 python -m http.server
 # Then visit http://localhost:8000
+
+### Option 2: Manual Setup
+
+If you just want to run the code quickly on your laptop without installing Git:
+
+1.  **Copy the Code:** Open the `index.html` file in this repository, click "Raw", and copy all the text.
+2.  **Open a Text Editor:**
+    * **Windows:** Open *Notepad*.
+    * **Mac:** Open *TextEdit* (Important: Go to **Format** > **Make Plain Text** first).
+    * Or Use *VS Code*.
+3.  **Save the File:**
+    * Paste the code into the editor.
+    * Save the file anywhere on your computer.
+    * **Filename:** `index.html`
+    * **Save as type:** Select **"All Files"** (if on Windows) to ensure it doesn't save as `index.html.txt`.
+4.  **Run:** Go to the folder where you saved it and **double-click** `index.html`. It will launch the simulation in your default web browser.
+
+> **Note:** If you see a blank screen, your browser's security settings might be blocking the 3D graphics engine. If this happens, please use **Option 1 (Local Execution)** to run a simple local server.
 
 Authors
 
