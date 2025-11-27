@@ -1,19 +1,17 @@
 # The-Eigen-Valley
-🏔️ Eigen Valley: A Linear Algebra Ecosystem
+Eigen Valley: A Linear Algebra Ecosystem
 
 "Mathematics is the DNA of Nature."
 
 Eigen Valley is a procedural 3D landscape generated entirely through mathematical functions and Linear Algebra concepts. It visualizes how abstract vector operations—like dot products, cross products, and gradient descent—can sculpt a living, breathing ecosystem.
 
-Live Demo: [(https://jaideepbiswas2003.github.io/The-Eigen-Valley/Eigen-Valley.html)]
-
-🎨 Overview
+Overview
 
 This project treats the computer screen not as a canvas for pixels, but as a Vector Space ($\mathbb{R}^3$).
 
 Instead of manually modeling mountains or rivers, we defined mathematical rules (axioms). The terrain, the river, and the weather are all emergent properties of these linear operators acting upon a grid of random vectors.
 
-🧮 Mathematical Foundation
+Mathematical Foundation
 
 This project is a visual calculator for the following Linear Algebra concepts:
 
@@ -66,7 +64,7 @@ $$\vec{p}_{new} = \vec{p}_{old} - \alpha \nabla h$$
 
 Visual Result: Glowing particles that flow like water, finding the most efficient path down the mountain to the river.
 
-🎮 User Manual & Controls
+User Manual & Controls
 
 The simulation includes an interactive HUD to manipulate the matrix parameters in real-time.
 
@@ -79,7 +77,7 @@ The simulation includes an interactive HUD to manipulate the matrix parameters i
 | **Show Normals** | Displays pink arrows on terrain. | Cross Product Visualization |
 | **Eigen-Rain** | Activates the particle system. | Gradient Descent / Optimization |
 
-🛠️ Technology Stack
+Technology Stack
 
 Engine: Three.js (WebGL rendering pipeline)
 
@@ -87,13 +85,9 @@ Language: JavaScript (ES6 Modules)
 
 Math: Custom implementation of Perlin Noise and Gradient Kernels.
 
-🚀 How to Run
+How to Run
 
-Option 1: Live Version
-
-Visit the GitHub Pages link provided at the top of this Readme.
-
-Option 2: Local Execution
+Local Execution:
 
 Clone this repository.
 
@@ -109,7 +103,7 @@ Note: If textures fail to load due to CORS policies, run a local server:
 python -m http.server
 # Then visit http://localhost:8000
 
-👥 Authors
+Authors
 
 Sayali Kadam (25m1110)
 
