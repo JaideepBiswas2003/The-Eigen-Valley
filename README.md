@@ -5,17 +5,11 @@
 
 Eigen Valley is a procedural 3D landscape generated entirely through mathematical functions and Linear Algebra concepts. It visualizes how abstract vector operations—like dot products, cross products, and gradient descent—can sculpt a living, breathing ecosystem.
 
-Replace this with a screenshot of your landscape
-
 🎨 Overview
 
 This project treats the computer screen not as a canvas for pixels, but as a Vector Space ($\mathbb{R}^3$).
 
 Instead of manually modeling mountains or rivers, we defined mathematical rules (axioms). The terrain, the river, and the weather are all emergent properties of these linear operators acting upon a grid of random vectors.
-
-Live Demo: [Insert Link to GitHub Page Here]
-
-Project Report: View Full LaTeX Report
 
 🧮 Mathematical Foundation
 
@@ -74,47 +68,14 @@ Visual Result: Glowing particles that flow like water, finding the most efficien
 
 The simulation includes an interactive HUD to manipulate the matrix parameters in real-time.
 
-Control
-
-Function
-
-Math Concept
-
-Grid Scale
-
-Changes the frequency of the noise.
-
-Input Vector Scaling
-
-Amplitude
-
-Stretches the mountains vertically.
-
-Scalar Multiplication
-
-River Width
-
-Widens the river path.
-
-Null Space Domain Expansion
-
-Water Level
-
-Raises/Lowers the sea plane.
-
-Subspace Intersection
-
-Show Normals
-
-Displays pink arrows on terrain.
-
-Cross Product Visualization
-
-Eigen-Rain
-
-Activates the particle system.
-
-Gradient Descent / Optimization
+| Control | Function | Math Concept |
+| :--- | :--- | :--- |
+| **Grid Scale** | Changes the frequency of the noise. | Input Vector Scaling |
+| **Amplitude** | Stretches the mountains vertically. | Scalar Multiplication |
+| **River Width** | Widens the river path. | Null Space Domain Expansion |
+| **Water Level** | Raises/Lowers the sea plane. | Subspace Intersection |
+| **Show Normals** | Displays pink arrows on terrain. | Cross Product Visualization |
+| **Eigen-Rain** | Activates the particle system. | Gradient Descent / Optimization |
 
 🛠️ Technology Stack
 
@@ -134,31 +95,17 @@ Option 2: Local Execution
 
 Clone this repository.
 
-git clone [https://github.com/yourusername/eigen-valley.git](https://github.com/yourusername/eigen-valley.git)
+git clone [https://github.com/JaideepBiswas2003/eigen-valley.git](https://github.com/JaideepBiswas2003/eigen-valley.git)
 
 
 Navigate to the folder.
 
-Open index.html in your web browser.
+Open Eigen-Valley.html in your web browser.
 
 Note: If textures fail to load due to CORS policies, run a local server:
 
 python -m http.server
 # Then visit http://localhost:8000
-
-
-📁 File Structure
-
-/eigen-valley
-│
-├── index.html          # The complete simulation source code
-├── README.md           # This documentation
-├── /docs
-│   └── Report.pdf      # Comprehensive 20-page technical report
-└── /assets
-    ├── demo_video.mp4  # Video walkthrough of the simulation
-    └── diagram.png     # Visual explanation of the math
-
 
 👥 Authors
 
